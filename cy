@@ -12,5 +12,8 @@ xkb_symbols "basic" {
 	key <AD06> { [ y, Y, ycircumflex, Ycircumflex ] };
 	key <AD02> { [ w, W, wcircumflex, Wcircumflex ] };
 
+    key <AB04> { [ v, V, leftsinglequotemark, leftdoublequotemark ]	};
+    key <AB05> { [ b, B, rightsinglequotemark, rightdoublequotemark ] };
+
 	include "level3(ralt_switch_multikey)"
 };
